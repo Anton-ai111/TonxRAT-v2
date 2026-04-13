@@ -34,7 +34,7 @@ sysinfo - System information screenshot - Capture screen shell - Execute command
 
 ## 🚀 Quick Start
 
-### 1. Setup
+## 1. Setup
 ```bash
 git clone https://github.com/Anton-ai111/TonxRAT-v2.git
 cd TonxRAT
