@@ -14,7 +14,7 @@ from pathlib import Path
 def print_banner():
     print("""
     ╔══════════════════════════════════════════════════════════════╗
-    ║                  TonxRAT Builder v1.1 - FIXED                ║
+    ║                  TonxRAT Builder v2                          ║
     ║             Undetectable RAT for Win/Linux                   ║
     ╚══════════════════════════════════════════════════════════════╝
     """)
